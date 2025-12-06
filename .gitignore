@@ -209,6 +209,8 @@ __marimo__/
 
 .idea/
 
+# Advent of Code 2024 (python)
+2023_python/inputs/
 
 # Advent of Code 2024 (python)
 2024_python/tests/.pytest_cache/
@@ -216,4 +218,3 @@ __marimo__/
 2024_python/inputs/
 2024_python/venv/
 
-inputs/
