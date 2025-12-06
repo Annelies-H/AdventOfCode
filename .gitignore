@@ -234,3 +234,9 @@ input/
 
 
 
+
+.stack-work
+stack.yaml.lock
+inputFiles
+fabricclaims.hs
+
