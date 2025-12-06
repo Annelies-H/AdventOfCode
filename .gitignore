@@ -237,6 +237,12 @@ __marimo__/
 2024_python/inputs/
 2024_python/venv/
 
+# Advent of Code 2025 (python)
+2025_python/tests/.pytest_cache/
+2025_python/tests/inputs/
+2025_python/inputs/
+2025_python/.venv/
+
 
 
 input/
