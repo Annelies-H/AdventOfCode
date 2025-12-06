@@ -209,7 +209,12 @@ __marimo__/
 .idea/
 
 
-# Advent of Code 2022 (python
+# Advent of Code 2029 (haskell)
+2019_haskell/.stack-work
+2019_haskell/stack.yaml.lock
+2019_haskell/inputFiles
+
+# Advent of Code 2022 (python)
 2022_python/input/
 2022_python/venv/
 
@@ -228,6 +233,4 @@ __marimo__/
 input/
 
 
-.stack-work
-stack.yaml.lock
-inputFiles
+
