@@ -1,4 +1,5 @@
-from scripts.day01 import get_all_positions, parse_file, rotate, part_one
+from scripts.day01 import get_all_positions, parse_file, rotate, part_one, get_rotations_past_zero, get_times_past_zero, \
+    part_two
 
 
 def test_parse_file():
@@ -25,3 +26,25 @@ def test_all_positions():
 def test_run_part_one():
     result = part_one("./2025_python/tests/inputs/day01.txt")
     assert result == 3
+
+def test_rotations_past_zero():
+    assert get_rotations_past_zero(position=5, rotations=-1) == (4, 0)
+    assert get_rotations_past_zero(position=1, rotations=-2) == (99, 1)
+    assert get_rotations_past_zero(position=1, rotations=-102) == (99, 2)
+    assert get_rotations_past_zero(position=1, rotations=-1) == (0, 1) #ends at zero
+    assert get_rotations_past_zero(position=0, rotations=-1) == (99, 0) #starts at zero
+
+    assert get_rotations_past_zero(position=90, rotations=1) == (91, 0)
+    assert get_rotations_past_zero(position=90, rotations=20) == (10, 1)
+    assert get_rotations_past_zero(position=90, rotations=120) == (10, 2)
+    assert get_rotations_past_zero(position=99, rotations=1) == (0, 1)  # ends at zero
+    assert get_rotations_past_zero(position=0, rotations=1) == (1, 0) # starts at zero
+
+def test_total_times_past_zero():
+    rotations = [-68, -30, 48, -5, 60, -55, -1, -99, 14, -82]
+    times_past_zero =  get_times_past_zero(rotations=rotations)
+    assert times_past_zero == 6
+
+def test_run_part_two():
+    result = part_two("./2025_python/tests/inputs/day01.txt")
+    assert result == 6

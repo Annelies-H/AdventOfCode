@@ -15,7 +15,8 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print("Hello, welcome to year 2025!")
-    print("Day 1 part 1: " + str(day01.part_one()))
+    #print("Day 1 part 1: " + str(day01.part_one()))
+    print("Day 1 part 2: " + str(day01.part_two()))
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
