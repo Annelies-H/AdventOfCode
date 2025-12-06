@@ -209,7 +209,16 @@ __marimo__/
 .idea/
 
 
-# Advent of Code 2029 (haskell)
+
+
+# Advent of Code 2018 (haskell)
+2018_haskell/.stack-work
+2018_haskell/stack.yaml.lock
+2018_haskell/inputFiles
+2018_haskell/fabricclaims.hs
+
+
+# Advent of Code 2019 (haskell)
 2019_haskell/.stack-work
 2019_haskell/stack.yaml.lock
 2019_haskell/inputFiles
@@ -232,11 +241,4 @@ __marimo__/
 
 input/
 
-
-
-
-.stack-work
-stack.yaml.lock
-inputFiles
-fabricclaims.hs
 
