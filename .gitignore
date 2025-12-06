@@ -207,11 +207,11 @@ marimo/_lsp/
 __marimo__/
 
 .idea/
-__pycache__/
-tests/.pytest_cache/
 
-inputs/
-tests/inputs
 
-venv/
+# Advent of Code 2024 (python)
+2024_python/tests/.pytest_cache/
+2024_python/tests/inputs/
+2024_python/inputs/
+2024_python/venv/
 
