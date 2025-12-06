@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -215,3 +216,4 @@ __marimo__/
 2024_python/inputs/
 2024_python/venv/
 
+inputs/
