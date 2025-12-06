@@ -227,3 +227,7 @@ __marimo__/
 
 input/
 
+
+.stack-work
+stack.yaml.lock
+inputFiles
